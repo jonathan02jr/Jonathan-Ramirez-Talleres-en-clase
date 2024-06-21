@@ -1,7 +1,6 @@
-package Ejercicio;
+package B2_2_Ejercicio;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class Main {
     public static void main(String[] args){
@@ -12,10 +11,9 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400,300);
 
-        //frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
+        frame.setLayout(new BoxLayout(frame.getContentPane(), BoxLayout.Y_AXIS));
 
         frame.setVisible(true);
-
 
         JLabel label = new JLabel("Hola mundo");
         frame.getContentPane().add(label);

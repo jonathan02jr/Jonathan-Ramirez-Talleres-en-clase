@@ -1,8 +1,6 @@
-package BIMESTRE_2_BIENVENIDOS;
+package B2_1_BIENVENIDOS;
 
 import javax.swing.*;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
 
 public class BIENVENIDO {
     private JTextField NOMBRETextField;
