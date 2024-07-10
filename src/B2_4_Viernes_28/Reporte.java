@@ -1,4 +1,4 @@
-package B3_4_Viernes_28;
+package B2_4_Viernes_28;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
