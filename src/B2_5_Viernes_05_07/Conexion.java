@@ -27,7 +27,7 @@ public class Conexion extends JFrame{
 
                 try(Connection connection = DriverManager.getConnection(url, user, password)){
                     System.out.println("Conectado a la base de datos");
-                    String query = "select correo from cliente where nombre like 'L%';";
+                    String query = "select * from cliente ;";
                     Statement statement = connection.createStatement();
                     ResultSet resultSet = statement.executeQuery(query);
 
