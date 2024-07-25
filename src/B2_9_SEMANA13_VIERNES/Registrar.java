@@ -1,6 +1,5 @@
 package B2_9_SEMANA13_VIERNES;
 
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,6 +7,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
+/**
+ * Clase registro para el ingreso del login
+ */
 
 public class Registrar extends JFrame{
     private JPanel panel2;

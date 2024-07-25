@@ -5,6 +5,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
 
+/**
+ * Comentario General
+ *
+ * <p><a href="https://www.youtube.com/watch?v=FwI0gPz-Tz8">Video</a></p>
+ * @author Jonathan Ramirez
+ * @version 1.0
+ * @see Login#iniciar()
+ * @since 25/07/2024
+ * //@throws IllegalArgumentException
+ *
+ */
+
 public class Login extends JFrame{
 
     private JTextField usuario1;
@@ -13,7 +25,7 @@ public class Login extends JFrame{
     private JPanel panel1;
 
     /**
-     * Comentario 1 de ingreso al sistema
+     * Comentario 1 de ingreso al sistema - METODO CONSTRUCTOR
      */
     public Login(){
         super("Inicio de sesión");
@@ -64,7 +76,7 @@ public class Login extends JFrame{
     }
 
     /**
-     * Visualizacion y tamaño del panel
+     * Metodo para la vizualizacion de las pantalla login y su tamaño
      */
     public void iniciar(){
         setVisible(true);
